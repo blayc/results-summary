@@ -198,11 +198,20 @@ body {
     color: hsla(var(--clr-dark-gray-blue), .5)
 }
 
-@media (max-width: 555px) {
+@media (max-width: 560px) {
+    
     .container {
         margin-bottom: auto;
     }
-};
+
+    .result.wrapper {
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+}
+
+
+
 
 
 
